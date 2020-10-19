@@ -1,0 +1,89 @@
+@mixin button {
+    display:block;
+    border-radius: 25px;
+    padding: 17px 57px;
+    color: white;
+    background-image: -webkit-linear-gradient(#FF79DA 0%, #9356DC 100%);
+    background-image: linear-gradient(#FF79DA 0%, #9356DC 100%);
+    border: none;
+    font-size: 17px;
+    &:hover{
+        opacity: 0.8;
+     }
+
+}
+
+@mixin footer {
+    background-color: #303030;
+    color: white;
+    display: block;
+    padding-left: 32px;
+    padding-bottom: 28px;
+    padding-top: 15px;
+
+    h3{
+    font-family: $fontsTitles;
+    display: inline;
+    color: white;
+    font-size: 20px;
+    }
+
+    ul {
+        padding-top: 10px;
+        list-style-type: none;
+    }
+
+    li{
+        margin: 5px 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+
+@mixin principalcontainer {
+
+    border: 1px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: $backgrey;
+    height: fit-content;
+
+}
+
+@mixin menuitem {
+    border-radius: 15px;
+    margin-bottom: 5%;
+    height: 3.7rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-shadow: 1px 1px 6px 1px #ccc;
+}
+
+@mixin header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .fa-arrow-left{
+        padding-left: 3%;
+    }
+
+    h2 {
+        font-family: $fontsTitles;
+        display: inline;
+        margin:0 auto;
+        font-size: 30px;
+    }
+}
