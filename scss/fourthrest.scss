@@ -4,10 +4,11 @@
     @import '_mixins.scss';
 
     * { margin:0; padding:0; }
+
     body {
         padding: 0;
         margin: 0;
-        font-family:$fontsText;
+        font-family: $fontsText;;
     }
 
     
@@ -21,6 +22,8 @@
 
     .menuitem {
         @include menuitem;
+        box-shadow: 1px 1px 6px 1px #ccc;
+        background-color: white;
         }
 
     .footer{
@@ -71,14 +74,14 @@
         }
         
         .fa-heart{
-            display: inline-block;
+            display: inline;
             vertical-align: middle;
             float: right;
-            padding-right: 5%;
-            display: inline;
+            margin-right: 5%;
+            margin-top: 5%;
             vertical-align: top;
-            &::after {
-                background-color: aquamarine;
+            &:hover {
+                color: $primaryColor;
             }
 
             }

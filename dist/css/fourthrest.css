@@ -44,7 +44,6 @@
     border-radius: 15px;
     margin-bottom: 5%;
     height: 3.7rem;
-    background-color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -59,6 +58,7 @@
     padding-right: 8px;
     -webkit-box-shadow: 1px 1px 6px 1px #ccc;
             box-shadow: 1px 1px 6px 1px #ccc;
+    background-color: white;
   }
   .footer {
     background-color: #303030;
@@ -132,15 +132,15 @@
     font-size: 28px;
   }
   .fa-heart {
-    display: inline-block;
+    display: inline;
     vertical-align: middle;
     float: right;
-    padding-right: 5%;
-    display: inline;
+    margin-right: 5%;
+    margin-top: 5%;
     vertical-align: top;
   }
-  .fa-heart::after {
-    background-color: aquamarine;
+  .fa-heart:hover {
+    color: #9356DC;
   }
   .price {
     float: right;

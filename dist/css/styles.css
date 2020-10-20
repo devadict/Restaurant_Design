@@ -1,0 +1,189 @@
+@media screen and (max-width: 740px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .fa-arrow-left {
+    padding-left: 3%;
+  }
+  .header h2 {
+    font-family: "Shrikhand", cursive;
+    display: inline;
+    margin: 0 auto;
+    font-size: 30px;
+  }
+  .localisation {
+    background-color: #E0E0E0;
+    height: 2.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .fa-map-marker-alt {
+    display: inline;
+    padding-right: 2%;
+  }
+  p {
+    display: inline;
+    text-align: center;
+  }
+  h2 {
+    font-weight: bold;
+    text-align: center;
+  }
+  .fa-mobile-alt {
+    display: inline-block;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+  }
+  .reservation {
+    padding: 10px 50px 20px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #F8F8F8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  button {
+    display: block;
+    border-radius: 25px;
+    padding: 14px 21px;
+    color: white;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+    background-image: linear-gradient(#FF79DA 0%, #9356DC 100%);
+    border: none;
+    font-size: 17px;
+    margin: 5% auto;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  .fonctions {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .items {
+    border-radius: 15px;
+    margin-bottom: 5%;
+    height: 3.7rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #F8F8F8;
+    -webkit-box-shadow: 1px 1px 6px 1px #ccc;
+            box-shadow: 1px 1px 6px 1px #ccc;
+  }
+  .restaurants {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #F8F8F8;
+  }
+  img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .carteitem {
+    height: 11rem;
+    border-radius: 15px;
+    background-color: white;
+    width: 100%;
+    height: 255px;
+    -webkit-box-shadow: 1px 1px 6px 1px #ccc;
+            box-shadow: 1px 1px 6px 1px #ccc;
+    margin-bottom: 7%;
+  }
+  .coordonees {
+    height: 75px;
+    line-height: -5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 5%;
+  }
+  .fa-heart {
+    display: inline;
+    float: right;
+    margin-right: 5%;
+  }
+  .fa-heart:hover {
+    color: #9356DC;
+  }
+  .footer {
+    background-color: #303030;
+    color: white;
+    display: block;
+    padding-left: 32px;
+    padding-bottom: 28px;
+    padding-top: 15px;
+  }
+  .footer h3 {
+    font-family: "Shrikhand", cursive;
+    display: inline;
+    color: white;
+    font-size: 20px;
+  }
+  .footer ul {
+    padding-top: 10px;
+    list-style-type: none;
+  }
+  .footer li {
+    margin: 5px 0;
+  }
+  .footer a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
