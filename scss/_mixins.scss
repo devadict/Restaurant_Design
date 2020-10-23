@@ -62,10 +62,11 @@
     margin-bottom: 5%;
     height: 3.7rem;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 8px;
-    padding-right: 8px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
 }
 
 @mixin header {
