@@ -79,46 +79,6 @@
             animation-delay: 0.5s;
     opacity: 0;
   }
-  .menuitem:nth-of-type(1) {
-    -webkit-animation-delay: 1.0s;
-            animation-delay: 1.0s;
-  }
-  .menuitem:nth-of-type(2) {
-    -webkit-animation-delay: 1.5s;
-            animation-delay: 1.5s;
-  }
-  .menuitem:nth-of-type(3) {
-    -webkit-animation-delay: 2.0s;
-            animation-delay: 2.0s;
-  }
-  .menuitem:nth-of-type(4) {
-    -webkit-animation-delay: 2.5s;
-            animation-delay: 2.5s;
-  }
-  .menuitem:nth-of-type(5) {
-    -webkit-animation-delay: 3.0s;
-            animation-delay: 3.0s;
-  }
-  .menuitem:nth-of-type(6) {
-    -webkit-animation-delay: 3.5s;
-            animation-delay: 3.5s;
-  }
-  .menuitem:nth-of-type(7) {
-    -webkit-animation-delay: 4.0s;
-            animation-delay: 4.0s;
-  }
-  .menuitem:nth-of-type(8) {
-    -webkit-animation-delay: 4.5s;
-            animation-delay: 4.5s;
-  }
-  .menuitem:nth-of-type(9) {
-    -webkit-animation-delay: 5.0s;
-            animation-delay: 5.0s;
-  }
-  .menuitem:nth-of-type(10) {
-    -webkit-animation-delay: 5.5s;
-            animation-delay: 5.5s;
-  }
   @-webkit-keyframes fadeIn {
     0% {
       opacity: 0.0;
@@ -140,25 +100,34 @@
     overflow: hidden;
     text-overflow: ellipsis;
     width: 80%;
-    position: relative;
+    display: inline;
     margin: 0;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+    display: inline-block;
+    /**/
+    max-width: 370px;
+    /**/
   }
   .commande {
     width: 100%;
     margin-left: 3%;
     margin-right: 3%;
+    position: relative;
+    display: block;
+    /**/
   }
   .commande:hover {
     width: 70%;
   }
   .price {
-    float: right;
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
+    position: absolute;
+    right: 0.25em;
+    bottom: 0.25em;
   }
   .footer {
     background-color: #303030;
@@ -229,14 +198,13 @@
     font-family: "Shrikhand", cursive;
     display: inline;
     vertical-align: top;
-    font-size: 28px;
+    font-size: 27px;
   }
   .fa-heart {
     display: inline;
-    vertical-align: middle;
+    margin-top: 1%;
     float: right;
     margin-right: 5%;
-    margin-top: 0;
     vertical-align: top;
   }
   .fa-heart:hover {
@@ -262,8 +230,8 @@
     width: 0%;
     height: 100%;
     text-align: center;
-    -webkit-transition: 0.5s linear;
-    transition: 0.5s linear;
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
     opacity: 0;
   }
   .menuitem:hover .checkicon {
@@ -294,6 +262,46 @@
       -webkit-transform: rotate(359deg);
               transform: rotate(359deg);
     }
+  }
+  .menuitem:nth-of-type(1) {
+    -webkit-animation-delay: 1.0s;
+            animation-delay: 1.0s;
+  }
+  .menuitem:nth-of-type(2) {
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+  }
+  .menuitem:nth-of-type(3) {
+    -webkit-animation-delay: 2.0s;
+            animation-delay: 2.0s;
+  }
+  .menuitem:nth-of-type(4) {
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+  }
+  .menuitem:nth-of-type(5) {
+    -webkit-animation-delay: 3.0s;
+            animation-delay: 3.0s;
+  }
+  .menuitem:nth-of-type(6) {
+    -webkit-animation-delay: 3.5s;
+            animation-delay: 3.5s;
+  }
+  .menuitem:nth-of-type(7) {
+    -webkit-animation-delay: 4.0s;
+            animation-delay: 4.0s;
+  }
+  .menuitem:nth-of-type(8) {
+    -webkit-animation-delay: 4.5s;
+            animation-delay: 4.5s;
+  }
+  .menuitem:nth-of-type(9) {
+    -webkit-animation-delay: 5.0s;
+            animation-delay: 5.0s;
+  }
+  .menuitem:nth-of-type(10) {
+    -webkit-animation-delay: 5.5s;
+            animation-delay: 5.5s;
   }
 }
 /*# sourceMappingURL=fourthrest.css.map */
