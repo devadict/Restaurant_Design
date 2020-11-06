@@ -1,4 +1,4 @@
-@media screen and (max-width: 740px) {
+@media screen and (min-width: 1025px) {
   * {
     margin: 0;
     padding: 0;
@@ -46,7 +46,6 @@
     height: -moz-fit-content;
     height: fit-content;
     position: relative;
-    top: -1.625rem;
   }
   .menuitem {
     border-radius: 15px;
@@ -80,6 +79,7 @@
     -webkit-animation-delay: 0.5s;
             animation-delay: 0.5s;
     opacity: 0;
+    margin-bottom: 1%;
   }
   .menuitem:hover p {
     white-space: nowrap;
@@ -164,7 +164,7 @@
     background-image: linear-gradient(#FF79DA 0%, #9356DC 100%);
     border: none;
     font-size: 17px;
-    margin: 20% auto;
+    margin: 10% auto;
   }
   button:hover {
     opacity: 0.8;
@@ -175,7 +175,7 @@
   .imagemark {
     display: -ms-grid;
     display: grid;
-    max-height: 250px;
+    max-height: 550px;
     max-width: 100%;
   }
   img {
@@ -309,4 +309,4 @@
             animation-delay: 5.5s;
   }
 }
-/*# sourceMappingURL=fourthrest.css.map */
+/*# sourceMappingURL=restpc.css.map */

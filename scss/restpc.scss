@@ -1,4 +1,4 @@
-@media screen and (max-width: 740px) {
+@media screen and (min-width: 1025px) {
 
     @import '_variables.scss';
     @import '_mixins.scss';
@@ -24,8 +24,7 @@
         }
 
     .principalcontainer{
-        @include principalcontainer();
-        top: -1.625rem;
+        @include principalcontainer;
         
     }
 
@@ -39,6 +38,7 @@
         animation-fill-mode: forwards;
         animation-delay: 0.5s;
         opacity: 0;
+        margin-bottom: 1%;
         &:hover{
           p{
             white-space: nowrap;
@@ -93,7 +93,7 @@
 
     button {
             @include button;
-            margin:20% auto; 
+            margin:10% auto; 
             i{
               padding-right: 30px;
             }
@@ -101,7 +101,7 @@
 
     .imagemark {
         display: grid;
-        max-height: 250px;
+        max-height: 550px;
         max-width: 100%;
     }
     
