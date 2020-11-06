@@ -93,9 +93,6 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .reservation h2 {
-    line-height: 3px;
-  }
   .reservation p {
     text-align: center;
     line-height: 2px;
