@@ -51,7 +51,10 @@
   .menuitem {
     border-radius: 15px;
     margin-bottom: 5%;
-    height: 3.7rem;
+    min-height: 3.7rem;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -66,6 +69,7 @@
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
+    word-wrap: break-word;
     -webkit-box-shadow: 1px 1px 6px 1px #ccc;
             box-shadow: 1px 1px 6px 1px #ccc;
     background-color: white;
@@ -234,6 +238,7 @@
     color: white;
     width: 0%;
     height: 100%;
+    min-height: 3.7rem;
     text-align: center;
     -webkit-transition: 0.2s linear;
     transition: 0.2s linear;
