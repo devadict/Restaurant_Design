@@ -1,4 +1,4 @@
-@media screen and (max-width: 740px) {
+@media (min-width: 300px) and (max-width: 740px) {
 
     @import '_variables.scss';
     @import '_mixins.scss';

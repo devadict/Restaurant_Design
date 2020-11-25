@@ -1,4 +1,4 @@
-@media (min-width: 300px) and (max-width: 420px) {
+@media (min-width: 420px) and (max-width: 740px) {
   * {
     margin: 0;
     padding: 0;
@@ -171,6 +171,10 @@
     padding-right: 5%;
     background-color: #F8F8F8;
   }
+  .picrestau {
+    position: relative;
+    text-align: center;
+  }
   img {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -182,11 +186,12 @@
   .carteitem {
     border-radius: 15px;
     background-color: white;
-    width: 100%;
+    max-width: 30rem;
     height: 14rem;
     -webkit-box-shadow: 1px 1px 6px 1px #ccc;
             box-shadow: 1px 1px 6px 1px #ccc;
     margin-bottom: 7%;
+    padding-bottom: 12%;
   }
   .coordonees {
     display: -webkit-box;
@@ -205,9 +210,8 @@
     height: 3.5rem;
   }
   .heart {
-    position: absolute;
+    position: relative;
     font-size: 1.4em;
-    margin-left: 18.125rem;
   }
   .heart:hover {
     cursor: pointer;
@@ -356,10 +360,6 @@
     padding: 0;
     margin: 0;
   }
-  .picrestau {
-    position: relative;
-    text-align: center;
-  }
   .top-right {
     position: absolute;
     top: 8px;
@@ -388,4 +388,4 @@
     }
   }
 }
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=stylestab.css.map */
