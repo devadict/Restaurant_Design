@@ -207,7 +207,7 @@
   .heart {
     position: absolute;
     font-size: 1.4em;
-    margin-left: 18.125rem;
+    margin-left: 18rem;
   }
   .heart:hover {
     cursor: pointer;
@@ -217,7 +217,7 @@
   .heart:hover .heart__anim {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     opacity: 1;
     z-index: 1;
     font-weight: 900;
@@ -226,10 +226,10 @@
   }
   .heart__anim {
     position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    /*top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;*/
     background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
     background: linear-gradient(#FF79DA, #9356DC);
     -webkit-background-clip: text;
